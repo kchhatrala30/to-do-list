@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  margin: 10px;
+}
+
+.reminder-item {
+  background-color: gold;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+/* .delete-button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 5px;
+
+  display: flex;
+  align-items: center;
+} */
