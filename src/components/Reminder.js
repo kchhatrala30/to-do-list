@@ -1,4 +1,5 @@
 import React from "react";
+import './Reminder.css';
 
 function Reminder(props) {
     function deleteReminder() {
@@ -6,7 +7,7 @@ function Reminder(props) {
     }
 
     return (
-        <div>
+        <div className="rem">
             <li>
                 {props.text}
             </li>

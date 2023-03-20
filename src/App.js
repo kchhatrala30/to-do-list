@@ -18,15 +18,17 @@ function App() {
 
   return (
     <div className="App">
+      <div className='main-form'>
         <h2>To-Do List</h2>
-
-        <form>
-          <input type="text" onChange={textHandler} id="todo-text"></input>
-          <button onClick={handleSubmit}>Submit</button>
-        </form>
-        <div>
-            <ReminderList reminders={reminders} setReminders={setReminders} />
-        </div>
+          <form>
+            <input type="text" onChange={textHandler} id="todo-text"></input>
+            <button onClick={handleSubmit}>Submit</button>
+          </form>
+      </div>
+      
+      <div>
+        <ReminderList reminders={reminders} setReminders={setReminders} />
+      </div>
     </div>
   );
 }

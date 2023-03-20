@@ -1,5 +1,6 @@
 import React from "react";
 import Reminder from "./Reminder";
+import './ReminderList.css';
 
 function ReminderList(props) {
     function handleDelete(text) {

@@ -1,27 +1,8 @@
-.App {
-  text-align: center;
-}
-
-.header {
-  margin: 10px;
-}
-
-.reminder-item {
-  background-color: gold;
-  margin: 10px;
-  padding: 10px;
-  border-radius: 10px;
-
+.main-form {
   display: flex;
+  flex-direction: column;
   align-items: center;
+  
+  padding-bottom: 2rem;
+  border-bottom: 2px solid black;
 }
-
-/* .delete-button {
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 10px;
-  border: 5px;
-
-  display: flex;
-  align-items: center;
-} */
